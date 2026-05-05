@@ -66,7 +66,6 @@ public class Main {
         System.out.println("sortare"+ sortate);
 
 
-        Optional <
         Optional<String> cuvant = cuvinte.stream()
                 .filter(c -> c.startsWith("p"))
                 .findFirst();
